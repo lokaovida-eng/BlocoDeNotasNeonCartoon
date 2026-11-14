@@ -1,7 +1,7 @@
 # 🚗 Velocímetro Automotivo HUD v2.0 - High-Precision GPS Telemetry & Fast RPM Shift Light LED Bar
 
-[![Download APK](https://img.shields.io/badge/Download_APK-VelocimetroAutomotivo.apk-00F0FF?style=for-the-badge&logo=android)](https://github.com/lokaovida-eng/EagleUnoApp/raw/main/VelocimetroAutomotivo.apk)
-[![Version](https://img.shields.io/badge/Version-2.0.0-00FF66?style=for-the-badge)](https://github.com/lokaovida-eng/EagleUnoApp)
+[![Download APK](https://img.shields.io/badge/Download_APK-VelocimetroAutomotivo.apk-00F0FF?style=for-the-badge&logo=android)](https://github.com/lokaovida-eng/VelocimetroAutomotivo/raw/main/VelocimetroAutomotivo.apk)
+[![Version](https://img.shields.io/badge/Version-2.0.0-00FF66?style=for-the-badge)](https://github.com/lokaovida-eng/VelocimetroAutomotivo)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.22-7F52FF?style=for-the-badge&logo=kotlin)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=for-the-badge&logo=android)](https://developer.android.com/jetpack/compose)
 
@@ -30,7 +30,7 @@
 
 Download the pre-compiled **VelocimetroAutomotivo.apk** directly to your Android device:
 
-👉 **[Download Velocímetro Automotivo APK (VelocimetroAutomotivo.apk)](https://github.com/lokaovida-eng/EagleUnoApp/raw/main/VelocimetroAutomotivo.apk)**
+👉 **[Download Velocímetro Automotivo APK (VelocimetroAutomotivo.apk)](https://github.com/lokaovida-eng/VelocimetroAutomotivo/raw/main/VelocimetroAutomotivo.apk)**
 
 ---
 
@@ -50,7 +50,7 @@ Download the pre-compiled **VelocimetroAutomotivo.apk** directly to your Android
 ## 📁 Repository Structure
 
 ```text
-EagleUnoApp/
+VelocimetroAutomotivo/
 ├── VelocimetroAutomotivo.apk           # Compiled Direct Installer
 ├── app/
 │   ├── build.gradle.kts
