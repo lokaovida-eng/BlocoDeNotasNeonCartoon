@@ -1,6 +1,6 @@
 # 📝 Bloco de Notas Neon Cartoon v1.0 - Single-Screen Cartoon Notepad with Anime Eagle Mascot
 
-[![Download APK](https://img.shields.io/badge/Download_APK-BlocoDeNotasNeonCartoon.apk-00F0FF?style=for-the-badge&logo=android)](https://github.com/lokaovida-eng/BlocoDeNotasNeonCartoon/raw/main/BlocoDeNotasNeonCartoon.apk)
+[![Download APK](https://img.shields.io/badge/Download_APK-BlocoDeNotasNeonCartoon.apk-00F0FF?style=for-the-badge&logo=android)](https://github.com/lokaovida-eng/BlocoDeNotasNeonCartoon/releases/download/v1.0.0/BlocoDeNotasNeonCartoon.apk)
 [![Version](https://img.shields.io/badge/Version-1.0.0-00FF66?style=for-the-badge)](https://github.com/lokaovida-eng/BlocoDeNotasNeonCartoon)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.22-7F52FF?style=for-the-badge&logo=kotlin)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=for-the-badge&logo=android)](https://developer.android.com/jetpack/compose)
@@ -31,11 +31,11 @@ Engineered with **100% full screen Edge-to-Edge display** for Samsung Galaxy Z F
 
 ---
 
-## 📥 Direct APK Download
+## 📥 Direct APK Download (Official Release v1.0.0)
 
-Download the pre-compiled **BlocoDeNotasNeonCartoon.apk** directly to your Android device:
+Download the pre-compiled **BlocoDeNotasNeonCartoon.apk** (v1.0.0) directly to your Android device:
 
-👉 **[Download Bloco de Notas Neon Cartoon APK (BlocoDeNotasNeonCartoon.apk)](https://github.com/lokaovida-eng/BlocoDeNotasNeonCartoon/raw/main/BlocoDeNotasNeonCartoon.apk)**
+👉 **[Download Bloco de Notas Neon Cartoon APK (v1.0.0)](https://github.com/lokaovida-eng/BlocoDeNotasNeonCartoon/releases/download/v1.0.0/BlocoDeNotasNeonCartoon.apk)**
 
 ---
 
