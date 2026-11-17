@@ -1,80 +1,75 @@
-# 📝 Bloco de Notas Neon Cartoon v1.0 - Single-Screen Cartoon Notepad with Anime Eagle Mascot
+# 🚗 Velocímetro Automotivo HUD v2.0 - Telemetria GPS de Alta Precisão & Barra de LED RPM
 
-[![Download APK](https://img.shields.io/badge/Download_APK-BlocoDeNotasNeonCartoon.apk-00F0FF?style=for-the-badge&logo=android)](https://github.com/lokaovida-eng/BlocoDeNotasNeonCartoon/raw/main/BlocoDeNotasNeonCartoon.apk)
-[![Version](https://img.shields.io/badge/Version-1.0.0-00FF66?style=for-the-badge)](https://github.com/lokaovida-eng/BlocoDeNotasNeonCartoon)
+[![Download APK](https://img.shields.io/badge/Download_APK-VelocimetroAutomotivo.apk-00F0FF?style=for-the-badge&logo=android)](https://github.com/lokaovida-eng/VelocimetroAutomotivo/releases/download/v2.0.0/VelocimetroAutomotivo.apk)
+[![Version](https://img.shields.io/badge/Version-2.0.0-00FF66?style=for-the-badge)](https://github.com/lokaovida-eng/VelocimetroAutomotivo)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.22-7F52FF?style=for-the-badge&logo=kotlin)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=for-the-badge&logo=android)](https://developer.android.com/jetpack/compose)
 
-**Bloco de Notas Neon Cartoon** is a single-screen, cartoon-styled Android Notepad application featuring **thick cartoon neon corner borders**, **custom background theme palette selection**, and a **fierce Anime Eagle mascot** ("Águia de Anime com Cara de Mau") rendered on Canvas for idle/waiting states.
-
-Engineered with **100% full screen Edge-to-Edge display** for Samsung Galaxy Z Flip 5 / 6 cover screen (*Flex Window*) and standard smartphones.
+**Velocímetro Automotivo HUD** é um aplicativo Android de telemetria GPS e monitoramento de viagens de alta precisão. Projetado com **100% de transparência Edge-to-Edge**, **feedback tátil de baixa latência**, **tipografia 3D neon para velocidade** e uma **barra de LEDs de troca de marcha com resposta ultra-rápida (90 ms)**.
 
 ---
 
-## 🚀 Key Features
+## 🚀 Principais Características
 
-### 🎨 Cartoon Neon Framing & Custom Themes
-- **Thick Cartoon Corner Lines**: Custom 4-corner cartoon neon stroke framing.
-- **Theme Palette Selector (`⚙`)**: Switch between Dark Cyber Neon, Cartoon Purple, Midnight Pink, Electric Cyan, and Anime Dark backgrounds.
+### ⚡ Barra de LEDs de RPM / Shift Light (Resposta 90ms)
+- **16 Segmentos LED Multicores (`#00FFCC` ➔ `#00FF66` ➔ `#FFFFCC00` ➔ `#FFFF0055`)**: Aumentam velozmente ao pisar no acelerador, simulando as luzes de troca de marcha de carros de corrida.
+- **Tipografia Neon 3D Dinâmica**: Digitos digitais com contorno em brilho 3D e mudanças de cor conforme a velocidade.
+- **100% Zero Bordas Pretas**: Layout Edge-to-Edge para a Tela de Capa (*Flex Window*) do Samsung Galaxy Z Flip 5 / 6 e smartphones padrão.
 
-### 🦅 Fierce Anime Eagle Mascot ("Cara de Mau")
-- **Custom Canvas Anime Eagle**: Vector-rendered anime eagle head with angled glowing neon eyes, sharp beak, and fierce brow expression on empty note state.
+### 📱 Tela de Capa do Samsung Galaxy Z Flip & Widgets
+- **Integração Nativa com Tela de Capa**: Suporte completo para os widgets da Tela de Capa do Z Flip via Samsung Good Lock / MultiStar.
+- **Sincronização em Tempo Real**: Atualização instantânea na tela inicial e no widget da capa durante a condução.
 
-### 📝 Single-Screen Notepad & History
-- **`➕ Nova Nota`**: Instantly clears canvas for a new note.
-- **`💾 Salvar`**: Saves current note title and content locally into `SharedPreferences`.
-- **`📜 Histórico`**: Modal listing all saved notes with timestamps, quick note loading, and deletion.
-
-### 📱 Samsung Galaxy Z Flip Cover Display & Home Widgets
-- **Foldable Cover Screen Native Integration**: Full support for Samsung Galaxy Z Flip 5 / 6 cover display widgets via Samsung Good Lock / MultiStar framework.
-- **Real-Time Synchronized Widgets**: Displays the latest saved note across home screen and cover screen widgets.
+### ⏱️ Telemetria GPS de Baixa Latência
+- **Sincronização GPS 100ms**: Atualizações com latência mínima e filtragem de ruído para resposta imediata do velocímetro.
+- **Contador Automático de Viagem**: Registra o tempo ativo e a distância percorrida (`KM`).
 
 ---
 
-## 📥 Direct APK Download
+## 📥 Download Direto do APK (Release Oficial v2.0.0)
 
-Download the pre-compiled **BlocoDeNotasNeonCartoon.apk** directly to your Android device:
+Baixe o instalador compilado **VelocimetroAutomotivo.apk** (v2.0.0) diretamente no seu dispositivo:
 
-👉 **[Download Bloco de Notas Neon Cartoon APK (BlocoDeNotasNeonCartoon.apk)](https://github.com/lokaovida-eng/BlocoDeNotasNeonCartoon/raw/main/BlocoDeNotasNeonCartoon.apk)**
+👉 **[Baixar Velocímetro Automotivo APK (v2.0.0)](https://github.com/lokaovida-eng/VelocimetroAutomotivo/releases/download/v2.0.0/VelocimetroAutomotivo.apk)**
 
 ---
 
-## 🛠️ Tech Stack & Specifications
+## 🛠️ Especificações Técnicas
 
-| Feature | Technology |
+| Recurso | Tecnologia |
 | :--- | :--- |
-| **Language** | Kotlin `1.9.22` |
-| **UI Framework** | Jetpack Compose `2024.02.00` (Material 3) |
+| **Linguagem** | Kotlin `1.9.22` |
+| **Interface** | Jetpack Compose `2024.02.00` (Material 3) |
 | **Min SDK** | `26` (Android 8.0 Oreo) |
 | **Target SDK** | `34` (Android 14) |
-| **Build System** | Gradle `8.5` |
+| **Sistema de Build** | Gradle `8.5` |
 
 ---
 
-## 📁 Repository Structure
+## 📁 Estrutura do Repositório
 
 ```text
-BlocoDeNotasNeonCartoon/
-├── BlocoDeNotasNeonCartoon.apk        # Compiled Direct Installer
+VelocimetroAutomotivo/
+├── VelocimetroAutomotivo.apk           # Instalador Direto Compilado
 ├── app/
 │   ├── build.gradle.kts
 │   └── src/
 │       └── main/
 │           ├── AndroidManifest.xml
 │           ├── java/com/eagleuno/app/
-│           │   ├── MainActivity.kt               # Cartoon Neon Notepad UI & Anime Eagle Canvas
-│           │   ├── NormalWidgetProvider.kt       # Home Screen Note Widget Provider
-│           │   └── CoverScreenWidgetProvider.kt  # Z Flip Cover Screen Note Widget Provider
+│           │   ├── VelocimetroActivity.kt        # Interface HUD e Lógica Neon RPM
+│           │   ├── NormalWidgetProvider.kt       # Provider do Widget da Tela Inicial
+│           │   └── CoverScreenWidgetProvider.kt  # Provider do Widget da Capa Z Flip
 │           └── res/
-│               ├── layout/                       # AppWidget XML Layouts
-│               └── values/                       # Themes & Strings
+│               ├── layout/                       # Layouts XML dos Widgets
+│               └── values/                       # Temas e Textos
 ├── build.gradle.kts
 └── README.md
 ```
 
 ---
 
-## 👨‍💻 Developer & License
+## 👨‍💻 Desenvolvedor & Licença
 
-Developed by **lokaovida-eng / Bloco de Notas Neon Cartoon Team**.  
-Licensed under the [MIT License](LICENSE).
+Desenvolvido pela equipe **lokaovida-eng / Velocímetro Automotivo**.  
+Licenciado sob a [Licença MIT](LICENSE).
