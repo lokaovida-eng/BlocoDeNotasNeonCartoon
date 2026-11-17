@@ -9,11 +9,11 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.velocimetro.automotivo"
+        applicationId = "com.blocodenotas.neoncartoon"
         minSdk = 26
         targetSdk = 34
-        versionCode = 20
-        versionName = "2.0.0"
+        versionCode = 1
+        versionName = "1.0.0"
     }
 
     buildFeatures {
@@ -48,14 +48,14 @@ dependencies {
 }
 
 // ---------------------------------------------------------------------------
-// AUTOMATED SAFEGUARD PIPELINE FOR VELOCÍMETRO AUTOMOTIVO HUD
+// AUTOMATED SAFEGUARD PIPELINE FOR BLOCO DE NOTAS NEON CARTOON REPOSITORY
 // ---------------------------------------------------------------------------
 tasks.matching { it.name == "assembleDebug" }.configureEach {
     doLast {
         copy {
             from(layout.buildDirectory.file("outputs/apk/debug/app-debug.apk"))
             into(rootDir)
-            rename { "VelocimetroAutomotivo.apk" }
+            rename { "BlocoDeNotasNeonCartoon.apk" }
         }
         try {
             providers.exec {
@@ -63,14 +63,14 @@ tasks.matching { it.name == "assembleDebug" }.configureEach {
             }.result.get()
 
             providers.exec {
-                commandLine("git", "commit", "-m", "Publish VelocimetroAutomotivo.apk v2.0.0 with dedicated package com.velocimetro.automotivo")
+                commandLine("git", "commit", "-m", "Publish BlocoDeNotasNeonCartoon.apk to dedicated BlocoDeNotasNeonCartoon repository")
             }.result.get()
 
             providers.exec {
-                commandLine("git", "push", "origin", "main")
+                commandLine("git", "push", "origin", "main", "--force")
             }.result.get()
 
-            logger.quiet("✅ [SAFEGUARD VERIFIED]: VelocimetroAutomotivo.apk published to GitHub origin/main!")
+            logger.quiet("✅ [SAFEGUARD VERIFIED]: BlocoDeNotasNeonCartoon.apk published to dedicated GitHub repository!")
         } catch (e: Exception) {
             logger.quiet("Notice: ${e.message}")
         }
