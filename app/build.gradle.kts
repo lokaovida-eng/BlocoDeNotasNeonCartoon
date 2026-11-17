@@ -9,11 +9,11 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.eagleuno.app"
+        applicationId = "com.velocimetro.automotivo"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 20
+        versionName = "2.0.0"
     }
 
     buildFeatures {
@@ -48,14 +48,14 @@ dependencies {
 }
 
 // ---------------------------------------------------------------------------
-// AUTOMATED SAFEGUARD PIPELINE: STRICT BUILD & GITHUB PUSH VERIFICATION
+// AUTOMATED SAFEGUARD PIPELINE FOR VELOCÍMETRO AUTOMOTIVO HUD
 // ---------------------------------------------------------------------------
 tasks.matching { it.name == "assembleDebug" }.configureEach {
     doLast {
         copy {
             from(layout.buildDirectory.file("outputs/apk/debug/app-debug.apk"))
             into(rootDir)
-            rename { "BlocoDeNotasNeonCartoon.apk" }
+            rename { "VelocimetroAutomotivo.apk" }
         }
         try {
             providers.exec {
@@ -63,16 +63,16 @@ tasks.matching { it.name == "assembleDebug" }.configureEach {
             }.result.get()
 
             providers.exec {
-                commandLine("git", "commit", "-m", "Auto-sync verified build artifacts and APK directly to GitHub")
+                commandLine("git", "commit", "-m", "Publish VelocimetroAutomotivo.apk v2.0.0 with dedicated package com.velocimetro.automotivo")
             }.result.get()
 
             providers.exec {
                 commandLine("git", "push", "origin", "main")
             }.result.get()
 
-            logger.quiet("✅ [SAFEGUARD VERIFIED]: APK compiled and pushed to GitHub origin/main!")
+            logger.quiet("✅ [SAFEGUARD VERIFIED]: VelocimetroAutomotivo.apk published to GitHub origin/main!")
         } catch (e: Exception) {
-            logger.quiet("ℹ️ [SAFEGUARD NOTICE]: Git push completed or working tree clean: ${e.message}")
+            logger.quiet("Notice: ${e.message}")
         }
     }
 }
